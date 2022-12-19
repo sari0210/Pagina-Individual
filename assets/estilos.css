@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+}
+.navbar{
+    background-color: blue;
+    width: 100%;
+    height: 60px;
+    text-align: end;
+   
+    
+}
+.navbar-nav{
+   padding: 15px;
+   
+
+}
+
+.navbar a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white ;
+    text-align: center;
+    text-overflow: inherit;
+    padding: 10px 10px 10px 10px;
+    text-align: end;
+    
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+  }
+
+  .card img{
+    width: 25%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 25%;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    margin: 30px 30px 30px 30px;
+    
+    width: 5%;
+  }
+
+  .container-card{
+    padding: 2px 16px;
+    margin: 30px 30px 30px 30px;
+    
+  }
+
+  .container-card h1{
+    text-align: center;
+    font-size: 5rem;
+  }
+  .card_L{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 30px;
+   
+   justify-content: space-around;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .card_L:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .card-title{
+    padding: 10px;
+    font-size: 22px;
+    padding: 15px 25px 10px 25px;
+  }
+  .card-text{
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    font-size: 16px;
+  }
+  .card_L p{
+    padding: 0px 25px 0px 25px;
+    text-align: justify;
+    font-size: 16px;
+
+  }
+
+  .card_L img{
+    height: 250px;
+  }
+
+  .btn{
+    margin: 0px 20px 20px 25px;
+    width: 120px;
+    height: 30px;
+
+  }
+  .container-img{
+    margin: 30px 30px 30px 60px;
+  }
+
+  .img-text{
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .img-1{
+    width: 350px;
+    height: 250px;
+    margin: 20px;
+    padding: 10px;
+    margin-right: 20px;
+    
+    
+  }
+  .img-1:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  .barra{
+    background-color: blueviolet;
+    height: 200px;
+    text-align: left;
+    
+  }
+
+  .barra h1{
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 2px 8px 50px;
+    color: white;
+  }
+  .barra li{
+    font-size: 18px;
+    margin: 10px 10px 10px 40px;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .barra li a{
+    text-decoration: none;
+    color: black;
+    
+   
+  }
+  
+

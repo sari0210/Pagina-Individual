@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color:white;
+    width: 100%;
+    height: 60px;
+    text-align: end;
+   
+    
+}
+.navbar-nav{
+   padding: 15px;
+   
+
+}
+
+.navbar a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+    text-overflow: inherit;
+    padding: 10px 10px 10px 10px;  
+}
+
+
+
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
+
+    scroll-snap-type: x mandatory;
+  }
+  
+  .slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+
+    scroll-snap-align: center;
+  }
+
+  .container-info{
+   margin: 30px;
+  }
+  .container-info h1{
+    margin: 30px;
+    text-align: center;
+  }
+  .container-info h3{
+    margin: 30px;
+    text-align: center
+
+  }
+
+  .container-info p{
+    text-align: justify;
+  }
+
+  .mapa{
+    margin: 0px;
+  }
+  .mapa p{
+    text-align: center;
+  }
+
+  .barra{
+    background-color: blue;
+    height: 200px;
+    text-align: left;
+    
+  }
+
+  .barra h1{
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+    padding: 25px 2px 8px 50px;
+    color: white;
+
+  }
+  .barra a{
+    font-size: 16px;
+    margin: 10px 10px 10px 10px;
+    padding: 25px 2px 8px 50px;
+    color:white;
+  }
+
+  
