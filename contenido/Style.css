@@ -20,7 +20,7 @@
 .navbar a{
     font-size: 1.1rem;
     text-decoration: none;
-    color: blue;
+    color: blueviolet;
     text-align: center;
     text-overflow: inherit;
     padding: 10px 10px 10px 10px;  
@@ -64,10 +64,10 @@
     text-align: justify;
   }
 
-  .mapa{
+  .container-mapa{
     margin: 0px;
   }
-  .mapa p{
+  .container-mapa p{
     text-align: center;
   }
 
@@ -91,5 +91,113 @@
     padding: 25px 2px 8px 50px;
     color:white;
   }
+  @media(max-width:1100px){
+    .navbar{
+      background-color:white;
+    width: 100%;
+    height: 100%;
+    text-align: end;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    }
 
+    .navbar a{
+      font-size: 14px;
+      text-decoration: none;
+      color: white;
+      text-align: left;
+      padding: 10px 10px;
+      margin: 0px;
+      background-color: blueviolet;
+      width: 100%;
+    }
+
+    .navbar-nav{
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+      
+    }
+
+    .container-nave{
+      width: 100%;
+    padding-top: 0;
+      
+    }
+    .slider-container{
+      height: 40%;
+    }
+  .slider-item img{
+    width: 100%;
+    height: 40%;
+    padding-top: 0;
+  }
+  .container-mapa{
+    width: 50%;
+    height: 40%;
+    
+  }
+  .mapouter{
+    width: 50%;
+    height: 40%;
+    padding: 0;
+   
+  }
+  }
+
+  @media(max-width:700px){
+    .navbar{
+      background-color:white;
+    width: 100%;
+    height: 100%;
+    text-align: end;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    }
+
+    .navbar a{
+      font-size: 14px;
+      text-decoration: none;
+      color: white;
+      text-align: left;
+      padding: 10px 10px;
+      margin: 0px;
+      background-color: blueviolet;
+      width: 100%;
+    }
+
+    .navbar-nav{
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+      
+    }
+
+    .container-nave{
+      width: 100%;
+    padding-top: 0;
+      
+    }
+    .slider-container{
+      height: 40%;
+    }
+  .slider-item img{
+    width: 100%;
+    height: 40%;
+    padding-top: 0;
+  }
+  .container-mapa{
+    width: 50%;
+    height: 40%;
+    
+  }
+  .mapouter{
+    width: 50%;
+    height: 40%;
+    padding: 0;
+   
+  }
+  }
   
