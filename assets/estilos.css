@@ -139,7 +139,7 @@ body{
 
   .barra{
     background-color: blueviolet;
-    height: 200px;
+    height: 250px;
     text-align: left;
     
   }
@@ -147,21 +147,27 @@ body{
   .barra h1{
     font-size: 20px;
     margin: 10px 10px 10px 10px;
-    padding: 10px 2px 8px 50px;
+    padding: 30px 2px 8px 70px;
     color: white;
   }
   .barra li{
     font-size: 18px;
-    margin: 10px 10px 10px 40px;
-    text-decoration: none;
+    margin: 10px 10px 10px 60px;
+    
     list-style: none;
   }
 
   .barra li a{
-    text-decoration: none;
-    color: black;
+    color: white;
+    
     
    
+  }
+  .barra p{
+
+  font-size: 14px;
+  text-align: center;
+  color: white;
   }
   
 
